@@ -1,0 +1,73 @@
+.carousel
+{
+    height: min-content !important;
+}
+.movielist
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 420px;
+    width: 1510px !important;
+    padding: 10px 0px;
+}
+.card
+{
+    margin: 10px;
+    width: 250px !important;
+    resize: none;
+}
+.card:hover
+{
+    transform: scale(1.08);
+    transition: 0.3s;
+    box-shadow: 7px 7px 7px #999;
+    cursor: pointer;
+}
+.title
+{
+    font-family: calibri;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: #333;
+}
+footer
+{
+    padding-top: 40px;
+    height: 320px;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+}
+.desc
+{
+    height: 150px;
+    width: 250px;
+    margin-left: 8%;
+    color: white;
+}
+ul
+{
+    list-style-type: none;
+    color: white;
+    display: block;
+}
+.options
+{
+    cursor:pointer;
+    color: #aaa;
+}
+.options:hover
+{
+    color: #fff;
+}
+.lists
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30%;
+    width: 500px;
+}
