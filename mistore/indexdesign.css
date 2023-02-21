@@ -1,0 +1,88 @@
+.banner
+{
+	height: 80%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	animation-name: banner;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	transition-duration: 1s;
+	background-image: url("photos/laptops.jpg");
+	background-size: 125%;
+	background-position: center;
+	display: inline;
+}
+@keyframes banner
+{
+	0%
+	{
+		background-image: url("photos/note11pro+.jpg");
+	}
+	25%
+	{
+		background-image: url("photos/note11.jpg");
+	}
+	50%
+	{
+		background-image: url("photos/laptops.jpg");
+	}
+	75%
+	{
+		background-image: url("photos/redmi10.jpg");
+	}
+	100%
+	{
+		background-image: url("photos/tv.jpg");
+	}
+}
+.parent
+{
+	
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	top: 615px;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+.column
+{
+	height: 100%;
+	width: 20%;
+	margin-left: 8.5%;
+	float: left;
+}
+.title
+{
+	font-size: 30px;
+	font-family: sans-serif;
+	position: Absolute;
+	top: 125vh;
+	left: 41%;
+}
+.topphone
+{
+	position: absolute;
+	top: 135vh;
+	left: 8%;
+}
+.series
+{
+	position: absolute;
+	top: 135vh;
+	left: 48.5%;
+}
+.lite
+{
+	position: absolute;
+	top: 135vh;
+	left: 68.7%;
+}
+.smarttv
+{
+	position: absolute;
+	top: 176.3vh;
+	left: 48.5%;	
+}
